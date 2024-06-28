@@ -1,0 +1,6 @@
+{
+    "login": "teste@teste.com",
+    "senha": "123456",
+    "loginInvalido": "teste@testador.com",
+    "senhaInvalida": "654321"
+}

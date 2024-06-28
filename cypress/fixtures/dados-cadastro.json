@@ -1,0 +1,25 @@
+{
+"validos": {
+    "CPF": "658.114.880-68",
+    "nome": "Teste WB",
+    "dataNascimento": "23/03/1956",
+    "email": "testando@teste.com",
+    "telefone": "81988776655",
+    "senha": "123456",
+    "confirmarSenha": "123456",
+    "campoEmail": "#email",
+    "campoTelefone": "#telefone",
+    "campoSenha": "#password"
+},
+"invalidos": {
+    "CPF": "658.114.770-68",
+    "nome": "QA",
+    "dataNascimento": "23/03/2015",
+    "email": "testando@.com",
+    "telefone": "819887766",
+    "senhaEspaco": "123 56",
+    "confirmarSenha": "654321",
+    "senhaMenor": "12345",
+    "vazio": " "
+}
+}
