@@ -25,8 +25,8 @@ describe('Validações na pagina de login', () =>{
 
     })
 
-    it('Realizar login com email invalido', () => {
-        login.preencherEmailLogin(DADOS.login)
+    it.only('Realizar login com email invalido', () => {
+        login.preencherEmailLogin(DADOS.loginInvalido)
         login.preencherSenha(DADOS.senhaInvalida)
         login.clicarElemento(elemento_login.botao.entrar)
 
